@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset='utf-8'/>
+  
+
+ </head>
+ <style>
+      #canvas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #btn{
+        position: absolute;
+        top: 3%;
+        left: 49%;
+        transform: translate(-25%, -25%);
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+}
+    </style>
+ <body>
+ 	<button id='btn'>START</button>
+  <div class= 'game'>
+  <div id = 'home'>
+    <canvas id='canvas' width='500' height='500'>
+    </canvas>
+  </div>
+    
+  </div>
+
+  <script src="config.js"></script>
+  <script src="snake.js"></script>
+  <script src="move.js"></script>
+ </body>
+
+</html>
